@@ -1,8 +1,6 @@
-﻿# I lost track of the full requirements, but I created a robot battle simulator using WEAPON_POWER * (ARMOR_THICKNESS / BOT_WEIGHT) to determine power
 # This scripts allows users to choose a robot (including a random option) and an opponent to fight in an arena
 
 #region convert csv files
-#we did this on our call today
 $dataset1 = @"
 NAME,BOT_WEIGHT,TYPE
 Slasher,1.4,melee
